@@ -1,0 +1,563 @@
+/* Top Navigation Css classes */
+.navTitle{
+    font-size: 28px;
+    color: #ffffff !important;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    text-decoration: none !important;
+}
+.navTitleScroll{
+    font-size: 28px;
+    color: #0073e6 !important;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    text-decoration: none !important;
+}
+.navBarBack{
+    -webkit-transition:background-color 400ms linear;
+    -moz-transition: background-color 400ms linear;
+    -o-transition: background-color 400ms linear;
+    transition: background-color 400ms linear;
+    background-color: rgba(00,00,00,0.0) !important;
+}
+.navBarBackScroll{
+    -webkit-transition:background-color 400ms linear;
+    -moz-transition: background-color 400ms linear;
+    -o-transition: background-color 400ms linear;
+    transition: background-color 400ms linear;
+    background-color: #1a1a1a!important;
+}
+.navBarItems{
+    text-decoration: none !important;
+    font-size: 18px;
+    color: #ffffff;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+}
+.navBarItemsScroll{
+    text-decoration: none !important;
+    font-size: 18px;
+    color: #ffffff !important;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+}
+/***************End***************/
+
+
+/* Top Fixed Bannner Css classes */
+.topFixedBanner{
+    background-image: url('../Images/Career.jpg');
+    min-height: 900px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.loginTopFixedBanner{
+    background-image: url('../Images/Career.jpg');
+    min-height: 900px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.topBannerOverlay{
+    position:absolute;
+    min-height: 900px;
+    width: 100%;
+    background-color: rgba(0,0,0,0.3);
+}
+.loginTopBannerOverlay{
+    position:absolute;
+    min-height: 900px;
+    width: 100%;
+    background-color: rgba(0,0,0,0.3);
+}
+.bannerFirstCol{
+    margin-top: 20rem;
+    text-align: justify;
+}
+.loginBannerFirstCol{
+    margin-top: 20rem;
+}
+.bannerFirstTitle{
+    font-size: 42px;
+    color: #ffffff;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+.bannerFirstSubTitle{
+    font-size: 18px;
+    color: #ffffff;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 300;
+    margin-bottom: 1rem;
+}
+.findJobBtn{
+    color: #ffffff;
+    font-family:Georgia, 'Times New Roman', Times, serif;;
+    margin-right: 0.5rem;
+    border: none;
+    font-size: 18px;
+}
+.postJobBtn{
+    color: #ffffff;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    border: none;
+    font-size: 18px;
+}
+.bannerSecondCol{
+    margin-top: 10rem;
+}
+.topBannerCard{
+    width: 25rem;
+}
+.bannerSecondTitle{
+    font-size: 28px;
+    color: #000000;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+    margin-bottom: 2rem ;
+}
+.bannerSecondSubTitle{
+    font-size: 16px;
+    color: #707070;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 300;
+    margin-bottom: 1rem;
+}
+.bannerSecondBtn{
+    width: 100%;
+    padding: 0.8rem;
+    color: #ffffff;
+    font-size: 16px;
+    margin-bottom: 1rem;
+}
+.bannerSecondSigninBtn{
+    font-size: 16px;
+    color: #707070;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 300;
+    text-decoration: none !important;
+}
+/****************End****************/
+/* Page top Css Classes */
+.pagetopFixedBanner{
+    background-image: url('../Images/midbanner.jpg');
+    min-height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.pagetopOverlay{
+    position:absolute;
+    min-height: 300px;
+    width: 100%;
+    background-color: rgba(0,0,0,0.3);
+}
+.pagetopTitle{
+    margin-top: 8rem;
+    color: #ffffff;
+    font-size: 28px;
+    font-weight: 600;
+    font-family:Arial, Helvetica, sans-serif;
+}
+/*************End******************/
+
+/* Job Category Css classes */
+.jobCategory{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+.contentHeaderTitle{
+    margin: 6rem 0rem 3rem 0rem;
+    text-align: center;
+    font-size: 34px;
+    font-weight: 600;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #0073e6;
+}
+.jobTitle{
+    text-decoration: none !important;
+    font-size: 18px;
+    color: #000000;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 300;
+}
+.jobTitle:hover{
+    text-decoration: none !important;
+    color: #0073e6;
+    margin-right: 2rem;
+
+}
+.iconBullet{
+    color: #0073e6;
+    font-size: 16px;
+}
+/************End************/
+
+/* Objective Css classes */
+.objectiveCard{
+    width: 22rem;
+    margin-bottom: 2rem;
+}
+.objectiveTitle{
+    font-size: 22px;
+    color: #000000;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+    margin-bottom: 1rem ;
+}
+.objectiveSubTitle{
+    font-size: 16px;
+    color: #707070;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 300;
+    margin-bottom: 1rem;
+}
+.objectiveContainer{
+    margin-top: 6rem;
+}
+/************End************/
+/* Job Find Css classes */
+.findJobContainer{
+    margin-top: 5rem;
+}
+.allJobsCardRow{
+    margin-bottom: 2rem;
+}
+.findJobImg{
+    width: 100px;
+    height: 100px;
+    margin-top: 3rem;
+    margin-right: 2rem;
+}
+.jobCardContainer{
+    margin: 1rem 0.4rem 1rem 0rem ;
+    padding: 0.8rem;
+    box-shadow: 0 0 2px 0 rgba(0,115,230,0.2);
+}
+.jobCardTitle{
+    text-decoration: none !important;
+    font-size: 18px;
+    color: #000000;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+.jobCardCompanyTitle{
+    text-decoration: none;
+    font-size: 14px;
+    color: #000000;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+.specificJobContainer{
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+}
+.jobDetailContainer{
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+}
+.jobDetailTitle{
+    text-decoration: none;
+    font-size: 24px;
+    color: #000000;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+.jobDetailText{
+    font-size: 16px;
+    color: #707070;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 300;
+    margin-bottom: 2rem;
+}
+.jobDetailImg{
+    width: 300px;
+    height: 300px;
+}
+.applyBtnCol{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+.jobApplyBtn{
+    width: 300px;
+    color: #ffffff;
+    text-decoration: none !important;
+    font-size: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 300;
+}
+.jobApplyBtn:hover{
+    color: #ffffff;
+    text-decoration: none !important;
+}
+.applyJobContainer{
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+    padding: 1rem;
+}
+.applySubmitBtn{
+    width: 100%;
+    color: #ffffff;
+    text-decoration: none !important;
+    font-size: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 300;
+}
+/***********End***********/
+
+/* Post Job Css classes */
+.postJobContainer{
+    margin: 4rem 5rem 3rem 5rem ;
+    padding: 1rem;
+    box-shadow: 0 0 2px 0 rgba(0,115,230,0.2);
+}
+.postJobHeaderTitle{
+    margin: 3rem 0rem 2rem 0rem;
+    text-align: center;
+    font-size: 34px;
+    font-weight: 600;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #0073e6;
+}
+.formTitle{
+    font-size: 16px;
+    color: #707070;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 300;
+}
+.formSubmitBtn{
+    width: 100%;
+    color: #ffffff;
+    background-color: #0073e6;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+/*************End*****************/
+
+/* About Css classes */
+.aboutContainer{
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+}
+.aboutTitle{
+    font-size: 26px;
+    color: #000000;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+.aboutSubTitle{
+    font-size: 16px;
+    color: #707070;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 300;
+    margin-bottom: 1rem;
+}
+
+/* Mid Banner Css classes */
+.midFixedBanner{
+    background-image: url('../Images/midbanner.jpg');
+    min-height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 1rem;
+    margin-top: 5rem;
+}
+.midBannerOverlay{
+    position:absolute;
+    min-height: 400px;
+    width: 100%;
+    background-color: rgba(0,0,0,0.3);
+}
+.midCounterCol{
+    margin-top: 10rem;
+}
+.midCouter{
+    color: #ffffff;
+    font-size: 38px;
+    font-weight: 600;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.midCouterTitle{
+    color: #ffffff;
+    font-size: 32px;
+    font-weight: 600;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+/***********End***********/
+
+/* Recent Post Css classes */
+.postCard{
+    margin: 1rem 0rem 2rem 0rem;
+    padding: 3rem;
+    box-shadow: 0 0 2px 0 rgba(0,115,230,0.2);
+}
+.companyImg{
+    margin-top: 2rem;
+    margin-left: 6rem;
+}
+.postTitle{
+    font-size: 32px;
+    color: #000000;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+.postSubTitle{
+    font-size: 16px;
+    color: #000000;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+.postText{
+    font-size: 14px;
+    color: #707070;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 300;
+}
+
+/* Fotter Css classes */
+.footerContainer{
+    margin-top: 3rem;
+    padding: 2rem;
+}
+.footerTitle{
+    color: #000000;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+.footerMediaIcon{
+    font-size: 16px;
+    color: #0073e6;
+}
+.footerMedia{
+    color: #0073e6;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    text-decoration: none;
+}
+.footerMedia:hover{
+    color: #000000;
+    text-decoration: none;
+}
+.footerSubTitle{
+    color: #000000;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    text-decoration: none;
+}
+.footerSubTitle:hover{
+    color: #0073e6;
+    text-decoration: none;
+}
+.footerAddress{
+    color: #000000;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+
+
+
+
+/* Sign In Css classes */
+.signInCard{
+    margin: 5rem 0rem 5rem 20rem;
+    width: 30rem;
+}
+
+
+
+
+/* Responsive Design Css */
+@media screen and (max-width: 992px){
+    /* Top Fixed Bannner Css classes */
+    .topFixedBanner{
+        min-height: 1000px;
+        width: auto;
+    }
+    .topBannerOverlay{
+        min-height: 1000px;
+    }
+    .topBannerCard{
+        width: 23rem;
+    }
+    .companyImg{
+        margin-top: 2rem;
+        margin-left: 1rem;
+    }
+    /*         End           */
+}
+@media screen and (max-width: 765px){
+    /* Top Fixed Bannner Css classes */
+    .topFixedBanner{
+        min-height: 1000px;
+        width: auto;
+    }
+    .loginTopFixedBanner{
+        min-height: 600px;
+        width: auto;
+    }
+    .loginTopBannerOverlay{
+        min-height: 600px;
+    }
+    .topBannerCard{
+        width: 20rem;
+    }
+    .bannerFirstCol{
+        margin-top: 12rem;
+        text-align: center;
+    }
+    .bannerSecondCol{
+        margin-top: 4rem;
+        margin-left: 0.6rem;
+    }
+    .midFixedBanner{
+        min-height: 600px;
+    }
+    .midBannerOverlay{
+        min-height: 600px;
+    }
+
+
+    .companyImg{
+        margin-top: 2rem;
+        margin-left: 1rem;
+    }
+    .jobCardContainer{
+        margin: 1rem 1rem 1rem 0rem ;
+        padding: 0.8rem;
+        box-shadow: 0 0 2px 0 rgba(0,115,230,0.2);
+        width: 350px;
+    }
+    .findJobImg{
+        width: 100px;
+        height: 100px;
+        margin-top: 3rem;
+        margin-bottom: 2rem;
+    }
+    .postTitle{
+        font-size: 22px;
+    }
+    .postSubTitle{
+        font-size: 14px;
+    }
+    .postText{
+        font-size: 12px;
+    }
+    .footerCol{
+        margin-top: 2rem;
+    }
+
+    .signInCard{
+        margin: 5rem 0rem 5rem 0rem;
+        width: 20rem;
+    }
+    /*         End           */
+}
